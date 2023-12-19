@@ -45,7 +45,7 @@ export const DateCounter = () => {
 								? 'Today is '
 								: count > 0
 								? `${count} days from today is `
-								: `${count} days from ago was `}
+								: `${count} days before was `}
 						</span>
 						<span>{formatFutureDate(count)}</span>
 					</p>
